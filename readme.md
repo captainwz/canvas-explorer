@@ -77,7 +77,7 @@ context.fill();
 ```
 
 ## output.json
-```json
+```javascript
 [
     {
         type: "polygon",
