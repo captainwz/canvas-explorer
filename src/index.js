@@ -253,7 +253,7 @@ const phaseCheck = () => {
                 }
 
                 if (el.lineWidth) {
-                    node.lineWidth = phaseStrokeStyle;
+                    node.lineWidth = phaseLineWidth;
                 }
 
                 output.push(node);

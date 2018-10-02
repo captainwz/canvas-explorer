@@ -32,12 +32,12 @@ context.rect(300, 300, 100, 100)
 context.fill();
 context.stroke();
 
-// context.beginPath();
-context.strokeRect(500, 500, 60, 30)
-context.fill();
+context.beginPath();
+// context.strokeRect(360, 100, 60, 30)
+context.arc(390, 60, 50, 0, 1*Math.PI);
 context.stroke();
 
-// context.beginPath();
+context.beginPath();
 context.moveTo(230, 230);
 
 context.lineTo(300, 230); 
